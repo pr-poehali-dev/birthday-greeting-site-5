@@ -493,7 +493,7 @@ function MusicSection() {
 export default function Index() {
   const [activeSection, setActiveSection] = useState("home");
   const [fireworksOn, setFireworksOn] = useState(false);
-  const [confettiOn, setConfettiOn] = useState(false);
+  const [confettiOn] = useState(true);
   const [greetingRevealed, setGreetingRevealed] = useState(false);
 
   useEffect(() => {
@@ -543,19 +543,6 @@ export default function Index() {
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center">
-            <button
-              onClick={() => setConfettiOn(v => !v)}
-              className="px-8 py-3 rounded-full font-montserrat font-semibold text-sm tracking-wider uppercase transition-all duration-300 hover:scale-105"
-              style={{
-                background: confettiOn ? "linear-gradient(135deg, #f5c842, #fb923c)" : "rgba(245,200,66,0.1)",
-                color: confettiOn ? "#0a0814" : "var(--gold)",
-                border: "1px solid rgba(245,200,66,0.4)",
-                boxShadow: confettiOn ? "0 0 30px rgba(245,200,66,0.4)" : "none",
-              }}
-            >
-              {confettiOn ? "🎊 Конфетти летит!" : "🎊 Запустить конфетти"}
-            </button>
-
             <button
               onClick={() => document.getElementById("fireworks")?.scrollIntoView({ behavior: "smooth" })}
               className="px-8 py-3 rounded-full font-montserrat font-semibold text-sm tracking-wider uppercase transition-all duration-300 hover:scale-105"
