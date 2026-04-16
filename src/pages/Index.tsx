@@ -532,7 +532,7 @@ export default function Index() {
             className="font-cormorant font-bold glow-gold mb-4 leading-none"
             style={{ fontSize: "clamp(4rem, 12vw, 9rem)", color: "var(--gold)" }}
           >
-            Праздник!
+            С твоим днём!
           </h1>
 
           <p
