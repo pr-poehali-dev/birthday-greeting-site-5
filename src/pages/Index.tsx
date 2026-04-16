@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { FireworksCanvas, ConfettiCanvas } from "@/components/effects/ParticleEffects";
 import StarsBackground from "@/components/layout/StarsBackground";
 import Nav from "@/components/layout/Nav";
+import ComplimentsSection from "@/components/sections/ComplimentsSection";
 
 export default function Index() {
   const [activeSection, setActiveSection] = useState("home");
@@ -148,7 +149,7 @@ export default function Index() {
               Специально для тебя
             </p>
           </div>
-
+          <ComplimentsSection />
         </div>
       </section>
 
