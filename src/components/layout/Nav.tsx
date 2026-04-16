@@ -1,7 +1,7 @@
 const NAV_ITEMS = [
   { id: "home", label: "Главная" },
   { id: "greeting", label: "Поздравление" },
-  { id: "music", label: "Музыка" },
+  { id: "music", label: "100 и 1 комплимент" },
   { id: "fireworks", label: "Фейерверк" },
 ];
 
