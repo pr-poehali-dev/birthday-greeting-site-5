@@ -617,14 +617,12 @@ export default function Index() {
               <div className="text-4xl text-center mb-8">🌟</div>
               <p
                 className="font-cormorant italic text-white/90 text-center mb-6 leading-relaxed"
-                style={{ fontSize: "clamp(1.4rem, 3vw, 2rem)" }}
+                style={{ fontSize: "clamp(1.2rem, 2.5vw, 1.75rem)" }}
               >
-                «Пусть этот день станет началом чего-то прекрасного.
-                Пусть улыбка не покидает тебя, а каждый момент
-                наполняется теплом и радостью.»
+                «Красота бывает разная. Есть броская, яркая, а есть — твоя: глубокая, как океан, и светлая, как утреннее небо. Желаю тебе, чтобы твоя внешность всегда была лишь отражением твоей счастливой души. Сияй ярче звёзд, люби себя каждой клеточкой и никогда не сомневайся в том, что ты — настоящее чудо.»
               </p>
               <p className="font-montserrat text-center text-white/40 text-sm tracking-widest uppercase">
-                — С любовью и светом ✨
+                — С праздником, прекрасная! ✨
               </p>
             </div>
           )}
