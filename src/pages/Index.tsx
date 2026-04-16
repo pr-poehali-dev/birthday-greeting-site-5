@@ -138,15 +138,15 @@ export default function Index() {
         />
         <div className="max-w-2xl mx-auto w-full section-fade">
           <div className="text-center mb-14">
-            <div className="text-5xl mb-6">🎵</div>
+            <div className="text-5xl mb-6">💐</div>
             <h2
               className="font-cormorant font-semibold"
               style={{ fontSize: "clamp(2.5rem, 7vw, 5rem)", color: "#c084fc" }}
             >
-              Музыка
+              100 и 1 комплимент
             </h2>
             <p className="font-montserrat text-white/40 text-xs tracking-widest uppercase mt-3">
-              Праздничный плейлист
+              Специально для тебя
             </p>
           </div>
           <MusicSection />
